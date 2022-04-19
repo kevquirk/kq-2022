@@ -25,6 +25,15 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Centre homepage avatar */
+.site-avatar {
+  margin: 0 auto;
+  display: block;
+	padding-bottom: 50px;
+  height: 11rem;
+  border: none !important;
+}
+
 /* Layout changes & fixes */
 .main-navigation {
   border-top: 3px solid var(--dark);
