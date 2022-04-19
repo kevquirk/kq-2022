@@ -65,6 +65,25 @@ h1,h2,h3,h4,h5,h6 {
   text-decoration: none !important;
 }
 
+/* Blog list hover effect */
+h2.gb-headline-074e1a3b a {
+  font-size: 36px;
+  background: var(--dark);
+  color: var(--light) !important;
+  font-weight: bold;
+  padding: .5rem 1rem;
+  transition: .25s .1s ease-in-out;
+  display: inline-block;
+}
+
+h2.gb-headline-074e1a3b a:hover {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
 /* TL;DR Block */
 .tldr {
   font-size: 1.6rem;
