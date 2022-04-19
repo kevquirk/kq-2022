@@ -50,7 +50,8 @@ html {
 }
 
 /* Typography */
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,
+h2.gb-headline-074e1a3b {
   letter-spacing: -0.0415625em;
   font-weight: 900;
 }
