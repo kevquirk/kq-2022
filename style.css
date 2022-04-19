@@ -188,7 +188,9 @@ figcaption em {
 }
 
 /* Hide certain elements that can't be done on the block editor */
-.entry-meta, /* date on blog posts (replaced by custom element) */ {
+.entry-meta, /* date on blog posts (replaced by custom element) */
+.post-type-archive-notes .page-title /* title on notes page */
+{
   display: none;
 }
 
