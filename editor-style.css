@@ -1,0 +1,77 @@
+body {
+    font-family: var(--sans-font) !important;
+}
+
+.is-root-container.block-editor-block-list__layout {
+  max-width: 40rem !important;
+  margin: 4rem auto !important;
+}
+
+.edit-post-visual-editor__post-title-wrapper {
+  text-align: center !important;
+}
+
+a,
+a:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--accent) !important;
+  text-decoration-thickness: .15rem !important;
+}
+
+h2, h3 {
+  margin-top: 4rem !important;
+}
+
+code {
+  font-size: 15px;
+  padding: 2px 5px;
+ }
+
+pre {
+  background: var(--accent-bg) !important;
+  max-width: 620px !important;
+}
+
+.wp-block-rss {
+  margin: 2em auto !important;
+  padding-left: 0 !important;
+}
+
+.wp-block-rss a {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+}
+
+.wp-block-quote {
+  border-color: var(--mid) !important;
+}
+
+.editor-styles-wrapper cite {
+  margin-top: 1.5rem !important;
+}
+
+/* Make Gutenberd wide images work */
+@media(min-width: 840px) {
+  [data-align="wide"] > .wp-block-image img,
+  .wide {
+      margin-left: -100px !important;
+      width: calc(100% + 200px) !important;
+      max-width: calc(100% + 200px) !important;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  [data-align="wide"] > .wp-block-image img,
+  .wide {
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+  }
+}
+
+.block-editor-rich-text__editable.wp-block-quote__citation.rich-text {
+  margin-top: 1.5rem !important;
+}
